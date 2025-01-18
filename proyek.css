@@ -6,7 +6,7 @@ body{
 
 .judul-portofolio{
     display: flex;
-    background-color: blue;
+    background-color:rgb(237, 111, 0);
     text-align: center;
     font-size: 15px;
     color: white;
@@ -77,12 +77,14 @@ body{
 
 .paragraf-profile p{
     text-align: center;
-    width: 200px;
+    width: 300px;
+    line-height: 1.6;
+    
 }
 
 .footer-menu{
     display: flex;
-    background-color: blue;
+    background-color: rgb(253, 145, 3);
     justify-content: center;
     position: fixed;
     bottom: 0px;

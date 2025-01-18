@@ -6,7 +6,7 @@ body{
 
 .judul-portofolio{
     display: flex;
-    background-color: blue;
+    background-color:rgb(237, 111, 0);
     text-align: center;
     font-size: 15px;
     color: white;
@@ -73,14 +73,9 @@ body{
 }
 
 
-.paragraf-profile p{
-    text-align: center;
-    width: 200px;
-}
-
 .footer-menu{
     display: flex;
-    background-color: blue;
+    background-color: rgb(253, 145, 3);
     justify-content: center;
     position: fixed;
     bottom: 0px;
@@ -135,7 +130,7 @@ textarea{
 .btn-kirim button{
     width: 100px;
     height: 30px;
-    background-color: rgb(16, 193, 16);
+    background-color: rgb(46, 193, 46);
 }
 
 
