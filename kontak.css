@@ -1,156 +1,146 @@
-body{
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
-.judul-portofolio{
-    display: flex;
-    background-color:rgb(237, 111, 0);
-    text-align: center;
-    font-size: 15px;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    position: sticky;
-    justify-content: center;
+.judul-portofolio {
+  display: flex;
+  background-color: rgb(237, 111, 0);
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  position: sticky;
+  justify-content: center;
 }
 
-.navbar-menu{
-    display: flex;
-    background-color:azure;
-    justify-content: center ;
-    height: 80px;
-    height: 30px;
-    position: sticky;
-    padding: 0px;
-    left: 0px;
-    width: 100%;
+.navbar-menu {
+  display: flex;
+  background-color: azure;
+  justify-content: center;
+  height: 80px;
+  height: 30px;
+  position: sticky;
+  padding: 0px;
+  left: 0px;
+  width: 100%;
 }
 
-.navbar-menu ul{
-    display: flex;
-    margin: 0px;
-    width: 100%;
-    padding: 0px;
-    justify-content: center;
-    list-style: none;
+.navbar-menu ul {
+  display: flex;
+  margin: 0px;
+  width: 100%;
+  padding: 0px;
+  justify-content: center;
+  list-style: none;
 }
 
 .navbar-menu ul li {
-    margin: 10px;
-    justify-content: center ;
+  margin: 10px;
+  justify-content: center;
 }
 
-.navbar-menu ul li a{
-    text-decoration: none;
+.navbar-menu ul li a {
+  text-decoration: none;
 }
 
-.title-profile{
-    display: flex;
-    justify-content: center;
+.title-profile {
+  display: flex;
+  justify-content: center;
 }
 
-.card-img{
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
+.card-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
 }
 
-.card-img img{
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 25px ;
-    box-shadow:2px 2px 2px black;
+.card-img img {
+  width: 50%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
 }
 
-
-.paragraf-profile{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    z-index: 2;
+.paragraf-profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  z-index: 2;
 }
 
-
-.footer-menu{
-    display: flex;
-    background-color: rgb(253, 145, 3);
-    justify-content: center;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    color: white;
-
+.footer-menu {
+  display: flex;
+  background-color: rgb(253, 145, 3);
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  color: white;
 }
 
-
-form div{
-    margin: 0px;
-    padding: 10px;
+form div {
+  margin: 0px;
+  padding: 10px;
 }
 
-.card-form{
-    background-color:#f1ecec;
-    margin: 20px;
+.card-form {
+  background-color: #f1ecec;
+  margin: 20px;
+  box-shadow: 2px 2px 2px black;
+  height: 500px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+label {
+  display: block;
+  display: flex;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+}
+
+textarea {
+  width: 300px;
+  height: 50px;
+}
+
+.title-form {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.btn-kirim {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-kirim button {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(46, 193, 46);
+}
+
+@media screen and (min-width: 700px) {
+  .card-form {
+    background-color: #f1ecec;
+    margin: 30px auto;
     box-shadow: 2px 2px 2px black;
     height: 500px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     border-radius: 20px;
     margin-bottom: 100px;
-}
-
-label{
-    display: block;
-    display: flex;
-}
-
-input{
-    width: 300px;
-    height: 35px;
-}
-
-textarea{
-    width: 300px;
-    height: 50px;
-}
-
-.title-form{
-    text-align: center;
-    margin-top: 0px;
-}
-
-.btn-kirim{
-    display: flex;
-    justify-content: center;
-}
-
-.btn-kirim button{
-    width: 100px;
-    height: 30px;
-    background-color: rgb(46, 193, 46);
-}
-
-
-@media screen and (min-width:700px) {
-    .card-form{
-        background-color:#f1ecec;
-        margin: 30px auto;
-        box-shadow: 2px 2px 2px black;
-        height: 500px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 20px;
-        margin-bottom: 100px;
-        width: 500px;
-    }
-
-
-   
-}
-
-
-
+    width: 500px;
+  }
+}/*# sourceMappingURL=kontak.css.map */

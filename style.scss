@@ -1,0 +1,45 @@
+@use 'kontak';
+@use 'proyek';
+
+.judul-portofolio{
+    display: $display;
+    background-color: kontak.$warnaJudul-Portofolio;
+    font-size: $font-size;
+    justify-content: proyek.$justify-content
+}
+
+.navbar-menu{
+    display: proyek.$display;
+    background-color:azure;
+    justify-content: kontak.$justify-content;
+    padding: $padding;
+}
+
+.title-profile{
+    display: $display;
+    justify-content: $justify-content;
+}
+
+    .card-img{
+    display: $display;
+    justify-content: $justify-content;
+    margin-top: 0px;    
+    }
+
+    .card-img img{
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 25px ;
+        box-shadow:2px 2px 2px black;
+    }
+
+    .paragraf-profile{
+        display: $display;
+        justify-content: $justify-content;
+    }
+
+.footer-menu{
+    display: $display;
+    justify-content: $justify-content;
+}

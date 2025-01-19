@@ -1,0 +1,137 @@
+$margin: 0px;
+$font-family: Arial, Helvetica, sans-serif;
+$font-size: 15px;
+$warnaJudul-Portofolio:rgb(237, 111, 0);
+$padding: 0px;
+$justify-content: center;
+$display: flex;
+$border-radiud: 20px;
+
+body{
+    margin: $margin;
+    font-family: $font-family;
+    box-sizing: border-box;
+}
+
+.judul-portofolio{
+    display: $display;
+    background-color:$warnaJudul-Portofolio;
+    text-align: center;
+    font-size: $font-size;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: sticky;
+    justify-content: $justify-content;
+}
+
+.navbar-menu{
+    display: $display;
+    background-color:azure;
+    justify-content: $justify-content;
+    height: 80px;
+    height: 30px;
+    position: sticky;
+    padding: $padding;
+    left: 0px;
+    width: 100%;
+}
+
+.navbar-menu ul{
+    display: $display;
+    margin: $margin;
+    width: 100%;
+    padding: $padding;
+    justify-content: $justify-content;
+    list-style: none;
+}
+
+.navbar-menu ul li {
+    margin: 10px;
+    justify-content: $justify-content;
+}
+
+.navbar-menu ul li a{
+    text-decoration: none;
+}
+
+.title-profile{
+    display: $display;
+    justify-content: $justify-content;
+}
+
+.card-img{
+    display: $display;
+    justify-content: $justify-content;
+    margin-top: 0px;
+}
+
+.card-img img{
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 25px ;
+    box-shadow:2px 2px 2px black;
+
+}
+
+
+.paragraf-profile{
+    display: $display;
+    justify-content: $justify-content;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+
+.paragraf-profile p{
+    text-align: center;
+    width: 300px;
+    line-height: 1.6;
+    
+}
+
+.footer-menu{
+    display: $display;
+    background-color: rgb(253, 145, 3);
+    justify-content: $justify-content;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+
+}
+
+
+@media screen and (min-width:700px) {
+
+    .paragraf-profile{
+        display: $display;
+        justify-content: $justify-content;
+        margin-top: 15px;
+        z-index: 2;
+    }
+    
+    
+    .paragraf-profile p{
+        text-align: center;
+        width: 80%;
+    }
+    
+
+    .card-img{
+        width: 100%;
+    }
+
+    .card-img img{
+        width: 400px;
+        height:350px;
+        border-radius: $border-radiud;
+    }
+
+    .paragraf-profile{
+        margin-bottom: 100px;
+    }
+
+   
+}
